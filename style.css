@@ -36,29 +36,34 @@ body {
 
 
 .buttons button {
-    background-color: #ff4d79;
-    color: #fff;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-    font-size: 26px;
-    cursor: pointer;
-    position: relative;
-    font-family: serif; /* Change to a romantic cursive font */
-  }
+  background-color: #ff4d79;
+  color: #fff;
+  padding: 26px 51px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 40px;
+  cursor: pointer;
+  position: relative;
+  font-family: serif;
+}
+  
   
   .buttons button:hover {
     background-color: #7c1f37;
   }
   
   .buttons {
+ 
+     margin-top: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: row;
+
   }
 
   #no-button {
+   
 }
 
 
@@ -66,7 +71,7 @@ body {
 .image {
   position: absolute;
   height: calc(100vh - 600px);
-  width: 300px;
+  width:600px;
   top: -35vh;
   right: 50%;
   height: auto;
@@ -76,15 +81,16 @@ body {
 
 .pp {
 
-  -webkit-text-stroke: 2px #71004f;
-  font-size: 30px;
+  -webkit-text-stroke: 1px #71004f;
+  width: 666px;
+  font-size: 80px;
   font-style: oblique;
   font-weight: 800;
   position: absolute;
   top:50%;
   right: 50%;
 
-  transform: translate(50%);
+  transform: translate(50%,50%);
 }
 
 
