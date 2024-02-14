@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);/
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+
+/*                  */
+
+
+.buttons button {
+    background-color: #ff4d79;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: serif; /* Change to a romantic cursive font */
+  }
+  
+  .buttons button:hover {
+    background-color: #7c1f37;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  #no-button {
+}
+
+
+
+.image {
+  position: absolute;
+  height: calc(100vh - 600px);
+  width: 300px;
+  top: -35vh;
+  right: 50%;
+  height: auto;
+  z-index: 100;
+  transform: translateX(50%);
+}
+
+.pp {
+
+  -webkit-text-stroke: 2px #71004f;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 800;
+  position: absolute;
+  top:50%;
+  right: 50%;
+
+  transform: translate(50%);
+}
+
+
